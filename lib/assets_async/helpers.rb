@@ -14,5 +14,11 @@ module AssetsAsync
         raw "loadCSSAsync('#{asset_path(name)}', '#{name.split('/').last}')"
       end
     end
+
+    def load_js name
+      content_tag :script do
+        raw "loadJSAsync('#{asset_path(name)}', '#{name.split('/').last}')"
+      end
+    end
   end
 end
