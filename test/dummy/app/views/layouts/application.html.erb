@@ -3,7 +3,6 @@
 <head>
   <title>Dummy</title>
   <%= include_assets_async %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -14,5 +13,6 @@
 <%= yield %>
 
 <%= load_css 'application.css' %>
+<%= load_js 'application.js' %>
 </body>
 </html>
