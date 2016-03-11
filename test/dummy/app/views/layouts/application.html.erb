@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Dummy</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= include_assets_async %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -10,5 +10,6 @@
 
 <%= yield %>
 
+<%= load_css 'application.css' %>
 </body>
 </html>
