@@ -1,0 +1,863 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-11 10:04:57 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:09:36 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'assets-async' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__739744803560056340_33105680'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.0ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:15:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'assets-async' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1232490479714389886_39451780'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:19:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 210ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'assets-async' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1728742359994261090_38922760'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:19:30 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 219ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'assets-async' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1916316076662571766_35138780'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:20:06 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'assets_async' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2864709668561030714_40272840'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.1ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (53.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:20:52 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 254ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'assets_async' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:13
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___45048338970877228_41225500'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.0ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:23:20 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 245ms (Views: 244.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/assets_async.self-a181cf31048cd34044f62f38386a86579645fb8661a34dfc5e5a19d4c56dcda3.js?body=1" for 127.0.0.1 at 2016-03-11 10:23:21 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-11 10:23:21 +0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 10:23:21 +0700
+
+
+Started GET "/assets/home.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 127.0.0.1 at 2016-03-11 10:23:21 +0700
+
+
+Started GET "/assets/application.self-89655ea40500a342dad2ac571974c28abab3e3897c63fef4c2d06d7564836879.js?body=1" for 127.0.0.1 at 2016-03-11 10:23:21 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:25:53 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 127.0.0.1 at 2016-03-11 10:25:54 +0700
+
+
+Started GET "/assets/assets_async.self-a181cf31048cd34044f62f38386a86579645fb8661a34dfc5e5a19d4c56dcda3.js?body=1" for 127.0.0.1 at 2016-03-11 10:25:54 +0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 10:25:54 +0700
+
+
+Started GET "/assets/application.self-89655ea40500a342dad2ac571974c28abab3e3897c63fef4c2d06d7564836879.js?body=1" for 127.0.0.1 at 2016-03-11 10:25:54 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-11 10:25:54 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:28:40 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-11 10:28:40 +0700
+
+
+Started GET "/assets/assets_async.self-a181cf31048cd34044f62f38386a86579645fb8661a34dfc5e5a19d4c56dcda3.js?body=1" for 127.0.0.1 at 2016-03-11 10:28:40 +0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 10:28:40 +0700
+
+
+Started GET "/assets/application.self-89655ea40500a342dad2ac571974c28abab3e3897c63fef4c2d06d7564836879.js?body=1" for 127.0.0.1 at 2016-03-11 10:28:40 +0700
+
+
+Started GET "/assets/home.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for 127.0.0.1 at 2016-03-11 10:28:40 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:33:06 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `include_assets_async' for #<#<Class:0x00000004856778>:0x0000000489cbd8>):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1859868012122624388_38511040'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:33:20 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `include_assets_async' for #<#<Class:0x00000004856778>:0x00000004d410d0>):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1859868012122624388_38511040'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:33:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `include_assets_async' for #<#<Class:0x00000004695998>:0x000000046c7a60>):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3120028694858178223_37533420'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:34:59 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant Helpers::Uglifier):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4175536380245371287_33316120'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:36:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant AssetsAsync::Helpers::Uglifier):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__641669167129656839_36280580'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:36:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant AssetsAsync::Helpers::Uglifier):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__641669167129656839_36280580'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:38:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant Helpers::Uglifier):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045407572652937440_29102460'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:39:36 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (uninitialized constant Helpers::Uglifier):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045407572652937440_43082100'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:39:41 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1674360200319979988_32061240'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.1ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:40:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2585610418883728760_23782820'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:40:10 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2585610418883728760_23782820'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:47:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2801777074731705332_32663660'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:49:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2801777074731705332_32663660'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:49:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___131236899621013351_47051200'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.1ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:51:08 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___131236899621013351_47051200'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:51:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1859655193614836996_43112320'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 10:56:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 2198ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/cybergarage/Dimas/Plugins/assets_async/test/dummy/app/assets/javascripts/assets_async.js):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3542099401901245936_41882380'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:12:49 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Is a directory @ io_fread - /home/cybergarage/Dimas/Plugins/assets_async/lib/assets_async):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1171164304124083063_36160200'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.5ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:13:06 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Is a directory @ io_fread - /home/cybergarage/Dimas/Plugins/assets_async/lib/assets_async):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1171164304124083063_36160200'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:13:14 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Is a directory @ io_fread - /home/cybergarage/Dimas/Plugins/assets_async/lib):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= include_assets_async %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1117859588879360375_36261200'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.0ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:20:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 658ms (Views: 658.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/assets_async.self-a181cf31048cd34044f62f38386a86579645fb8661a34dfc5e5a19d4c56dcda3.js?body=1" for 127.0.0.1 at 2016-03-11 11:20:24 +0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 11:20:24 +0700
+
+
+Started GET "/assets/application.self-89655ea40500a342dad2ac571974c28abab3e3897c63fef4c2d06d7564836879.js?body=1" for 127.0.0.1 at 2016-03-11 11:20:24 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:21:06 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 404ms (Views: 403.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 11:21:07 +0700
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 11:21:07 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:21:14 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 654ms (Views: 653.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 11:21:16 +0700
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 11:21:16 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:23:41 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 384ms (Views: 383.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 11:23:42 +0700
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 11:23:42 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:24:03 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 626ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `loadCSSAsync' for #<#<Class:0x00000005f155e0>:0x00000005f59380>):
+    10: 
+    11: <%= yield %>
+    12: 
+    13: <%= load_css 'application.css' %>
+    14: </body>
+    15: </html>
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___4069860442125784988_50190600'
+
+
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.4ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/cybergarage/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:27:09 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 751ms (Views: 751.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 11:27:10 +0700
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 11:27:10 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:27:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 695ms (Views: 694.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 11:27:52 +0700
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 11:27:52 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 11:28:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 818ms (Views: 817.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 11:28:06 +0700
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 11:28:06 +0700
+
+
+Started GET "/assets/application-4994c1c9a60868e24a437b554ebe82e10d3416a72ca75682d7fddc35f8a2184f.css" for 127.0.0.1 at 2016-03-11 11:28:07 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:10:24 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 395ms (Views: 394.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 14:10:24 +0700
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 14:10:24 +0700
+
+
+Started GET "/assets/application-4994c1c9a60868e24a437b554ebe82e10d3416a72ca75682d7fddc35f8a2184f.css" for 127.0.0.1 at 2016-03-11 14:10:24 +0700
+
+
+Started GET "/other" for 127.0.0.1 at 2016-03-11 14:10:29 +0700
+Processing by HomeController#other as HTML
+  Rendered home/other.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 399ms (Views: 398.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:10:32 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 410ms (Views: 410.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/other" for 127.0.0.1 at 2016-03-11 14:10:34 +0700
+Processing by HomeController#other as HTML
+  Rendered home/other.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 447ms (Views: 446.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/other" for 127.0.0.1 at 2016-03-11 14:11:08 +0700
+Processing by HomeController#other as HTML
+  Rendered home/other.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 371ms (Views: 371.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:11:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 404ms (Views: 403.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:11:17 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 394ms (Views: 393.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2016-03-11 14:11:18 +0700
+
+
+Started GET "/assets/application.self-8f06a73c35179188914ab50e057157639fce1401c1cdca640ac9cec33746fc5b.js?body=1" for 127.0.0.1 at 2016-03-11 14:11:18 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:45:44 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 595ms (Views: 594.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-89720f5a46589c09bfd16b3e1c7c509bba7d6a3c3dd4f3a8e13e0d05a0fbf9c1.js" for 127.0.0.1 at 2016-03-11 14:45:45 +0700
+
+
+Started GET "/assets/application-4994c1c9a60868e24a437b554ebe82e10d3416a72ca75682d7fddc35f8a2184f.css" for 127.0.0.1 at 2016-03-11 14:45:45 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:46:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 376ms (Views: 376.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-e65fd1dbe5ec43979ced10eb5ff687f1d38c362f185c9a4b6ef6b2076581c280.js" for 127.0.0.1 at 2016-03-11 14:46:07 +0700
+
+
+Started GET "/assets/application-4994c1c9a60868e24a437b554ebe82e10d3416a72ca75682d7fddc35f8a2184f.css" for 127.0.0.1 at 2016-03-11 14:46:08 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:46:17 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 418ms (Views: 418.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-89720f5a46589c09bfd16b3e1c7c509bba7d6a3c3dd4f3a8e13e0d05a0fbf9c1.js" for 127.0.0.1 at 2016-03-11 14:46:17 +0700
+
+
+Started GET "/assets/application-4994c1c9a60868e24a437b554ebe82e10d3416a72ca75682d7fddc35f8a2184f.css" for 127.0.0.1 at 2016-03-11 14:46:17 +0700
+
+
+Started GET "/home" for 127.0.0.1 at 2016-03-11 14:46:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 381ms (Views: 381.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-89720f5a46589c09bfd16b3e1c7c509bba7d6a3c3dd4f3a8e13e0d05a0fbf9c1.js" for 127.0.0.1 at 2016-03-11 14:46:29 +0700
+
+
+Started GET "/assets/application-4994c1c9a60868e24a437b554ebe82e10d3416a72ca75682d7fddc35f8a2184f.css" for 127.0.0.1 at 2016-03-11 14:46:29 +0700
