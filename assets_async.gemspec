@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = AssetsAsync::VERSION
   s.authors     = ["Dimas Julisa Taniawan"]
   s.email       = ["dimazniawan@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of AssetsAsync."
-  s.description = "TODO: Description of AssetsAsync."
+  s.homepage    = "https://github.com/dimasjt/assets_async"
+  s.summary     = "Asynchronous assets gem for rails."
+  s.description = "Asynchronous javascript, stylesheet for rails app"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -21,4 +21,5 @@ Gem::Specification.new do |s|
   s.add_dependency "uglifier", "~> 2.7.2"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "pry"
 end
