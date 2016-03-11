@@ -1,4 +1,4 @@
-# AssetsAsync
+# AssetsAsync [![Build Status](https://travis-ci.org/dimasjt/assets_async.svg?branch=master)](https://travis-ci.org/dimasjt/assets_async)
 
 ## Installation
 
