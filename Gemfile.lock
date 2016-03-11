@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    assets_async (0.0.1)
+    assets_async (0.1.0)
       rails (~> 4.2.5)
       uglifier (~> 2.7.2)
 
