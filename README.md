@@ -1,4 +1,4 @@
-# AssetsAsync [![Build Status](https://travis-ci.org/dimasjt/assets_async.svg?branch=master)](https://travis-ci.org/dimasjt/assets_async)
+# AssetsAsync [![Build Status](https://travis-ci.org/dimasjt/assets_async.svg?branch=master)](https://travis-ci.org/dimasjt/assets_async) [![Gem Version](https://badge.fury.io/rb/assets_async.svg)](https://badge.fury.io/rb/assets_async)
 
 ## Installation
 
