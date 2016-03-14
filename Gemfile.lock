@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     assets_async (0.1.0)
-      rails (~> 4.2.5)
       uglifier (~> 2.7.2)
 
 GEM
@@ -116,6 +115,14 @@ GEM
     rspec-mocks (3.4.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
+    rspec-rails (3.4.2)
+      actionpack (>= 3.0, < 4.3)
+      activesupport (>= 3.0, < 4.3)
+      railties (>= 3.0, < 4.3)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+      rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
     slop (3.6.0)
     sprockets (3.5.2)
@@ -143,8 +150,10 @@ DEPENDENCIES
   assets_async!
   capybara
   pry
+  rails (~> 4.2.5)
   rspec
+  rspec-rails
   sqlite3
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
