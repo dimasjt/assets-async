@@ -1,7 +1,6 @@
 # AssetsAsync [![Build Status](https://travis-ci.org/dimasjt/assets_async.svg?branch=master)](https://travis-ci.org/dimasjt/assets_async) [![Gem Version](https://badge.fury.io/rb/assets_async.svg)](https://badge.fury.io/rb/assets_async)
 
 ## Installation
-
 Add to your Gemfile file
 
 ```ruby
@@ -37,6 +36,9 @@ Load stylesheet or javascript
   <%= load_js 'application.js' %>
 </body>
 ```
+
+**note:**
+This gem required [uglifier gem](https://github.com/lautis/uglifier)
 
 ## Contributing
 
